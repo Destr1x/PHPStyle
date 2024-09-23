@@ -244,7 +244,7 @@ class Colors {
         $cyan_to_green, $cyan_to_blue
     ];
     
-    foreach ($dynamic_colors as &$color) {
+    foreach ($dynamic_colors as $color) {
         $col = 20;
         $reversed_col = 220;
         $dbl_col = 20;
